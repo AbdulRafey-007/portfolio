@@ -195,7 +195,7 @@
     // counter
     $(".counter").counterUp({
       delay: 10,
-      time: 10000,
+      time: 500,
     });
 
     /* magnificPopup img view */
