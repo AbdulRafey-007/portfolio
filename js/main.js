@@ -1,5 +1,8 @@
 (function ($) {
   "use strict";
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
   // TOP Menu Sticky
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
