@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="css/slick.min.css">
   <link rel="stylesheet" href="css/slicknav.min.css">
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://assets.calendly.com/assets/external/widget.css">
   <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -85,6 +86,7 @@
           <ul>
             <li><a href="https://www.linkedin.com/in/m-abdul-rafey/" rel="noreferrer" target="_blank"><span class="sr-only">Linkedin Profile</span> <i class="fa fa-linkedin"></i></a></li>
             <li><a href="mailto:abdulrafey010@gmail.com"><span class="sr-only">Email</span> <i class="fa fa-envelope"></i> </a></li>
+            <li><a href="https://calendly.com/abdulrafey010/work-related" rel="noreferrer" target="_blank"><span class="sr-only">Calendly</span> <img src="./img/svg_icon/calendly.svg" alt="calendly"/> </a></li>
           </ul>
         </div>
         <div class="container">
@@ -353,7 +355,8 @@
             <div class="project_text text-center">
               <h3>Let's discuss for a project</h3>
               <p>Don't know how your product full details, No problem let's collaborate!</p>
-              <a class="boxed-btn3" href="https://www.linkedin.com/in/m-abdul-rafey/" rel="noreferrer" target="_blank">Start Talking</a>
+              <a class="boxed-btn3" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/abdulrafey010/work-related'});return false;">Book a meeting</a>
+              <!-- <a class="boxed-btn3" href="https://www.linkedin.com/in/m-abdul-rafey/" rel="noreferrer" target="_blank">Start Talking</a> -->
             </div>
           </div>
         </div>
@@ -425,6 +428,7 @@
   <script src="js/gijgo.min.js"></script>
 
   <script src="js/main.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
 </body>
 
 </html>
